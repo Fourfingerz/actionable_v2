@@ -1,4 +1,5 @@
 ActiveAdmin.register Comment do
+  permit_params :reply
 
 
   # See permitted parameters documentation:
