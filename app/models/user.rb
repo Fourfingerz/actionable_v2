@@ -8,4 +8,5 @@ class User < ActiveRecord::Base
   belongs_to :favorite
   has_many :articles
   has_many :projects
+  has_many :comments
 end
