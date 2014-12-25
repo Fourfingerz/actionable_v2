@@ -1,4 +1,5 @@
 ActiveAdmin.register Issue do
+  permit_params :title, :image_url
 
 
   # See permitted parameters documentation:
