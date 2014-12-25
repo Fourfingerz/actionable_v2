@@ -6,4 +6,5 @@ class User < ActiveRecord::Base
   has_many :issues
   has_and_belongs_to_many :favorites
   belongs_to :favorite
+  has_many :articles
 end
