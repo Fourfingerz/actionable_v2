@@ -3,4 +3,5 @@ class Favorite < ActiveRecord::Base
   has_one :article
   has_one :project
   has_one :comment
+  has_one :issue
 end
